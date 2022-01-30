@@ -20,8 +20,8 @@ for elemento in inventario:
 busca = input("Digite o nome do equipamento que deseja buscar: ")
 for elemento in inventario:
     if busca.upper() == elemento[0].upper():
-        print("Valor:",equipamento[1])
-        print("Serial:",equipamento[2])
+        print("Valor:",elemento[1])
+        print("Serial:",elemento[2])
 
 diminuir_preco = input("Digite o nome do equipamento para diminuir o preço: ")
 
