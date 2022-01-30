@@ -54,7 +54,7 @@ for elemento in inventario:
 if len(valores) > 0:
     print("O equipamento mais caro custa: ", max(valores))
     print("O equipamento mais barato custa: ",min(valores))
-    print("O valor total de equipamentos é de: ", sum(valores))
+    print("O valor de todos equipamentos juntos é de: ", sum(valores))
 
 
 
